@@ -3,457 +3,469 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="福岡の税理士法人 創研。法人税務、個人確定申告、相続税対策まで、経験豊富な税理士があなたのビジネスをサポートします。">
-    <title>税理士法人 創研 | 福岡の税理士事務所</title>
-
-    <!-- Google Fonts -->
+    <title>税理士法人 創研 | 福岡・長崎で働き方改革を実践する税理士法人</title>
+    <meta name="description" content="福岡・長崎に拠点を持つ税理士法人創研。経営革新等支援機関として認定。働き方改革を実践し、法人税務顧問・個人税務相談・デジタル化支援・経営革新支援を提供。">
+    <meta name="keywords" content="税理士,福岡,長崎,経営革新等支援機関,働き方改革,法人税務,確定申告,DX支援">
+    
+    <!-- OGP Tags -->
+    <meta property="og:title" content="税理士法人 創研 | 福岡・長崎で働き方改革を実践する税理士法人">
+    <meta property="og:description" content="福岡・長崎に拠点を持つ税理士法人創研。経営革新等支援機関として認定。働き方改革を実践し、お客様に寄り添ったサービスを提供。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://souken-tax.com">
+    <meta property="og:site_name" content="税理士法人 創研">
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <!-- Stylesheet -->
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- ヘッダー -->
-    <header class="header" id="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <i class="fas fa-calculator"></i>
-                    <span>税理士法人 創研</span>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>税理士法人 創研</h1>
                 </div>
-                <nav class="nav" id="nav">
-                    <ul class="nav-list">
-                        <li><a href="#hero" class="nav-link">ホーム</a></li>
-                        <li><a href="#services" class="nav-link">サービス</a></li>
-                        <li><a href="#strengths" class="nav-link">選ばれる理由</a></li>
-                        <li><a href="#pricing" class="nav-link">料金</a></li>
-                        <li><a href="#about" class="nav-link">事務所概要</a></li>
-                    </ul>
-                </nav>
-                <div class="header-actions">
-                    <a href="tel:092-731-0480（福岡事務所）、095-801-5271（長崎事務所）" class="header-phone">
+                
+                <div class="nav-menu">
+                    <a href="#services" class="nav-link">サービス</a>
+                    <a href="#reasons" class="nav-link">選ばれる理由</a>
+                    <a href="#pricing" class="nav-link">料金</a>
+                    <a href="#office" class="nav-link">事務所概要</a>
+                    <a href="#contact" class="nav-link">お問い合わせ</a>
+                </div>
+                
+                <div class="nav-contact">
+                    <div class="nav-phone">
                         <i class="fas fa-phone"></i>
-                        <span>092-731-0480（福岡事務所）、095-801-5271（長崎事務所）</span>
-                    </a>
-                    <a href="#contact" class="btn btn-primary">お問い合わせ</a>
+                        <span>092-731-0480</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">無料相談</a>
                 </div>
-                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                
+                <div class="nav-toggle">
                     <span></span>
                     <span></span>
                     <span></span>
-                </button>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
-    <!-- ヒーローセクション -->
-    <section class="hero" id="hero">
-        <div class="hero-overlay"></div>
-        <div class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">
-                    <span class="hero-title-small">福岡で選ばれる</span>
-                    経営者に寄り添う税理士
-                </h1>
-                <p class="hero-subtitle">
-                    税務・会計のプロフェッショナルとして、<br class="mobile-break">
-                    お客様のビジネスの成長をサポートします
-                </p>
-                <div class="hero-actions">
-                    <a href="#contact" class="btn btn-primary btn-large">
-                        <i class="fas fa-envelope"></i>
-                        無料相談を申し込む
-                    </a>
-                    <a href="tel:092-731-0480（福岡事務所）、095-801-5271（長崎事務所）" class="btn btn-secondary btn-large">
+                <h2 class="hero-title">福岡・長崎で働き方改革を実践する税理士法人</h2>
+                <p class="hero-subtitle">経営革新等支援機関として認定された税理士法人創研は、働き方改革と業務品質向上を両立し、地域社会の発展に貢献します。</p>
+                
+                <div class="hero-cta">
+                    <a href="tel:092-731-0480" class="btn btn-primary">
                         <i class="fas fa-phone"></i>
-                        092-731-0480（福岡事務所）、095-801-5271（長崎事務所）
+                        今すぐ電話相談
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        お問い合わせ
                     </a>
                 </div>
+                
                 <div class="hero-features">
-                    <div class="hero-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <span>初回相談無料</span>
+                    <div class="feature-item">
+                        <i class="fas fa-award"></i>
+                        <span>経営革新等支援機関認定</span>
                     </div>
-                    <div class="hero-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <span>土日対応可</span>
+                    <div class="feature-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>福岡・長崎の2拠点体制</span>
                     </div>
-                    <div class="hero-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <span>オンライン対応</span>
+                    <div class="feature-item">
+                        <i class="fas fa-clock"></i>
+                        <span>時差出勤制度導入</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- サービス紹介 -->
-    <section class="services" id="services">
+    <!-- Services Section -->
+    <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">サービス内容</h2>
-                <p class="section-subtitle">お客様のニーズに合わせた、幅広いサービスをご提供します</p>
+                <h2>主要サービス</h2>
+                <p>お客様のニーズに合わせた幅広いサービスを提供しています</p>
             </div>
+            
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-building"></i>
                     </div>
-                    <h3 class="service-title">法人税務顧問</h3>
-                    <p class="service-description">
-                        月次決算から税務申告まで、法人経営に必要な税務・会計業務を包括的にサポート。経営アドバイスも行います。
-                    </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> 月次決算・財務分析</li>
-                        <li><i class="fas fa-check"></i> 税務申告書作成</li>
-                        <li><i class="fas fa-check"></i> 税務調査対応</li>
-                        <li><i class="fas fa-check"></i> 経営相談</li>
+                    <h3>法人税務顧問</h3>
+                    <p>法人のお客様向けの税務申告・会計処理・経営支援サービスを提供。月次決算から年次決算まで、トータルサポートいたします。</p>
+                    <ul>
+                        <li>月次税務顧問</li>
+                        <li>決算申告業務</li>
+                        <li>経営分析・改善提案</li>
                     </ul>
                 </div>
-
+                
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-user"></i>
                     </div>
-                    <h3 class="service-title">個人確定申告</h3>
-                    <p class="service-description">
-                        個人事業主、フリーランスの方の確定申告を代行。節税対策もご提案いたします。
-                    </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> 所得税確定申告</li>
-                        <li><i class="fas fa-check"></i> 消費税申告</li>
-                        <li><i class="fas fa-check"></i> 青色申告サポート</li>
-                        <li><i class="fas fa-check"></i> 節税対策</li>
+                    <h3>個人税務相談</h3>
+                    <p>個人のお客様向けの確定申告・相続税対策・資産管理サービス。お一人おひとりの状況に合わせたきめ細やかな対応を行います。</p>
+                    <ul>
+                        <li>確定申告代行</li>
+                        <li>相続税対策</li>
+                        <li>資産管理・運用相談</li>
                     </ul>
                 </div>
-
+                
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-handshake"></i>
+                        <i class="fas fa-laptop-code"></i>
                     </div>
-                    <h3 class="service-title">会社設立支援</h3>
-                    <p class="service-description">
-                        起業・開業をお考えの方へ、会社設立手続きから創業融資、補助金申請までトータルサポート。
-                    </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> 設立手続き代行</li>
-                        <li><i class="fas fa-check"></i> 創業融資サポート</li>
-                        <li><i class="fas fa-check"></i> 補助金・助成金申請</li>
-                        <li><i class="fas fa-check"></i> 事業計画書作成</li>
+                    <h3>デジタル化支援</h3>
+                    <p>企業のDX推進・会計システム導入・業務効率化をサポート。最新のテクノロジーを活用した業務改善をご提案します。</p>
+                    <ul>
+                        <li>会計システム導入</li>
+                        <li>DX推進コンサルティング</li>
+                        <li>業務効率化支援</li>
                     </ul>
                 </div>
-
+                
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3 class="service-title">相続税対策</h3>
-                    <p class="service-description">
-                        相続税申告、事業承継、生前贈与など、相続に関する幅広いご相談に対応いたします。
-                    </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> 相続税申告</li>
-                        <li><i class="fas fa-check"></i> 事業承継対策</li>
-                        <li><i class="fas fa-check"></i> 生前贈与プラン</li>
-                        <li><i class="fas fa-check"></i> 相続税シミュレーション</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 選ばれる理由 -->
-    <section class="strengths" id="strengths">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">税理士法人 創研が選ばれる理由</h2>
-                <p class="section-subtitle">お客様から信頼される3つの強み</p>
-            </div>
-            <div class="strengths-grid">
-                <div class="strength-card">
-                    <div class="strength-number">01</div>
-                    <div class="strength-icon">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <h3 class="strength-title">丁寧なコミュニケーション</h3>
-                    <p class="strength-description">
-                        専門用語を使わず、わかりやすく説明します。些細な疑問でもお気軽にご相談ください。レスポンスも迅速で、メール・電話・オンライン面談など、お客様のご都合に合わせて対応いたします。
-                    </p>
-                </div>
-                <div class="strength-card">
-                    <div class="strength-number">02</div>
-                    <div class="strength-icon">
                         <i class="fas fa-chart-line"></i>
                     </div>
-                    <h3 class="strength-title">経営サポート力</h3>
-                    <p class="strength-description">
-                        単なる記帳代行や税務申告だけでなく、経営者のパートナーとして財務分析、資金繰り改善、事業拡大のアドバイスを提供。お客様の事業の成長をサポートします。
-                    </p>
-                </div>
-                <div class="strength-card">
-                    <div class="strength-number">03</div>
-                    <div class="strength-icon">
-                        <i class="fas fa-yen-sign"></i>
-                    </div>
-                    <h3 class="strength-title">明確な料金体系</h3>
-                    <p class="strength-description">
-                        ご契約前に料金を明示し、追加費用の心配がありません。売上規模に応じた適正価格で、スタートアップから大企業まで柔軟に対応いたします。
-                    </p>
+                    <h3>経営革新支援</h3>
+                    <p>経営革新等支援機関として補助金申請・事業計画策定を支援。企業の成長戦略をトータルでサポートいたします。</p>
+                    <ul>
+                        <li>補助金申請支援</li>
+                        <li>事業計画策定</li>
+                        <li>経営改善計画作成</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 料金プラン -->
-    <section class="pricing" id="pricing">
+    <!-- Reasons Section -->
+    <section id="reasons" class="reasons">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">料金プラン</h2>
-                <p class="section-subtitle">シンプルで分かりやすい料金体系</p>
+                <h2>選ばれる理由</h2>
+                <p>税理士法人創研が多くのお客様に選ばれる3つの理由</p>
             </div>
-            <div class="pricing-table-wrapper">
-                <table class="pricing-table">
-                    <thead>
-                        <tr>
-                            <th>サービス内容</th>
-                            <th>月額料金（税別）</th>
-                            <th>備考</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>法人税務顧問（年商1,000万円未満）</td>
-                            <td class="price">20,000円〜</td>
-                            <td>記帳代行・月次決算・年末調整含む</td>
-                        </tr>
-                        <tr>
-                            <td>法人税務顧問（年商1,000万〜3,000万円）</td>
-                            <td class="price">30,000円〜</td>
-                            <td>記帳代行・月次決算・年末調整含む</td>
-                        </tr>
-                        <tr>
-                            <td>法人税務顧問（年商3,000万〜5,000万円）</td>
-                            <td class="price">40,000円〜</td>
-                            <td>記帳代行・月次決算・年末調整含む</td>
-                        </tr>
-                        <tr>
-                            <td>個人確定申告（白色申告）</td>
-                            <td class="price">50,000円〜</td>
-                            <td>年1回のスポット対応</td>
-                        </tr>
-                        <tr>
-                            <td>個人確定申告（青色申告）</td>
-                            <td class="price">80,000円〜</td>
-                            <td>年1回のスポット対応</td>
-                        </tr>
-                        <tr>
-                            <td>会社設立サポート</td>
-                            <td class="price">100,000円〜</td>
-                            <td>定款作成・登記手続き含む</td>
-                        </tr>
-                    </tbody>
-                </table>
+            
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-number">01</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>経営革新等支援機関認定</h3>
+                    <p>国が認定する支援機関として、補助金申請や経営改善を専門的にサポート。豊富な実績と確かな知識で、お客様の事業発展をお手伝いします。</p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-number">02</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>福岡・長崎の2拠点体制</h3>
+                    <p>九州北部エリアをカバーする2拠点でお客様に密着したサービスを提供。地域特性を理解した最適なソリューションをご提案いたします。</p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-number">03</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>働き方改革の実践</h3>
+                    <p>時差出勤制度やオフィスカジュアル導入で柔軟な対応力を実現。スタッフの働きやすい環境づくりが、お客様へのより良いサービス提供につながります。</p>
+                </div>
             </div>
-            <p class="pricing-note">
-                ※ 料金は目安です。業種・取引量により変動する場合があります。<br>
-                ※ 初回相談は無料です。お気軽にお問い合わせください。
-            </p>
         </div>
     </section>
 
-    <!-- 事務所概要 -->
-    <section class="about" id="about">
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">事務所概要</h2>
-                <p class="section-subtitle">お気軽にお問い合わせください</p>
+                <h2>料金プラン</h2>
+                <p>お客様の規模に合わせた料金プランをご用意しています</p>
             </div>
-            <div class="about-content">
-                <div class="about-info">
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="info-details">
-                            <h4>事務所名</h4>
-                            <p>税理士法人 創研</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="info-details">
-                            <h4>所在地</h4>
-                            <p>〒810-0003福岡県福岡市中央区春吉3丁目25番13号（福岡事務所）、〒850-0874長崎県長崎市魚の町2番6号 新栄商会ビル4階（長崎事務所）</p>
+            
+            <div class="pricing-table">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>スタートアップ</h3>
+                        <div class="price">
+                            <span class="currency">¥</span>
+                            <span class="amount">25,000</span>
+                            <span class="period">/月</span>
                         </div>
                     </div>
-                    <div class="info-item">
-                        <div class="info-icon">
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i>月次税務相談</li>
+                            <li><i class="fas fa-check"></i>決算申告（法人税・消費税）</li>
+                            <li><i class="fas fa-check"></i>電話・メール相談</li>
+                            <li><i class="fas fa-check"></i>基本的な経営助言</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="tel:092-731-0480" class="btn btn-outline">相談する</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">おすすめ</div>
+                    <div class="pricing-header">
+                        <h3>スタンダード</h3>
+                        <div class="price">
+                            <span class="currency">¥</span>
+                            <span class="amount">45,000</span>
+                            <span class="period">/月</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i>月次訪問・税務相談</li>
+                            <li><i class="fas fa-check"></i>決算申告・税務調査対応</li>
+                            <li><i class="fas fa-check"></i>経営分析レポート</li>
+                            <li><i class="fas fa-check"></i>補助金申請支援</li>
+                            <li><i class="fas fa-check"></i>会計システム導入支援</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="tel:092-731-0480" class="btn btn-primary">相談する</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>プレミアム</h3>
+                        <div class="price">
+                            <span class="currency">¥</span>
+                            <span class="amount">80,000</span>
+                            <span class="period">/月</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i>月2回訪問・随時相談</li>
+                            <li><i class="fas fa-check"></i>全税務業務対応</li>
+                            <li><i class="fas fa-check"></i>経営戦略コンサルティング</li>
+                            <li><i class="fas fa-check"></i>DX推進支援</li>
+                            <li><i class="fas fa-check"></i>事業承継・M&A支援</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="tel:092-731-0480" class="btn btn-outline">相談する</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Section -->
+    <section id="office" class="office">
+        <div class="container">
+            <div class="section-header">
+                <h2>事務所概要</h2>
+                <p>福岡・長崎の2拠点でお客様をサポートしています</p>
+            </div>
+            
+            <div class="office-grid">
+                <div class="office-info">
+                    <div class="office-card">
+                        <h3><i class="fas fa-building"></i> 福岡事務所</h3>
+                        <div class="office-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>〒810-0003<br>福岡県福岡市中央区春吉3丁目25番13号</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:092-731-0480">092-731-0480</a>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>平日 9:00-18:00<br>（電話受付 9:00-17:00）</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="office-card">
+                        <h3><i class="fas fa-building"></i> 長崎事務所</h3>
+                        <div class="office-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>〒850-0874<br>長崎県長崎市魚の町2番6号<br>新栄商会ビル4階</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:095-801-5271">095-801-5271</a>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>平日 9:00-18:00<br>（電話受付 9:00-17:00）</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="coverage-area">
+                        <h4><i class="fas fa-map"></i> 対応地域</h4>
+                        <p>福岡県・長崎県とその周辺地域</p>
+                    </div>
+                </div>
+                
+                <div class="office-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.5!2d130.3947!3d33.5904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5pyt5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65pil5ZCJ!5e0!3m2!1sja!2sjp!4v1234567890"
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section id="contact" class="contact-cta">
+        <div class="container">
+            <div class="contact-content">
+                <h2>お気軽にご相談ください</h2>
+                <p>初回相談は無料です。お客様の課題に合わせた最適なソリューションをご提案いたします。</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-icon">
                             <i class="fas fa-phone"></i>
                         </div>
-                        <div class="info-details">
-                            <h4>電話番号</h4>
-                            <p><a href="tel:092-731-0480（福岡事務所）、095-801-5271（長崎事務所）">092-731-0480（福岡事務所）、095-801-5271（長崎事務所）</a></p>
+                        <h3>お電話でのお問い合わせ</h3>
+                        <div class="contact-phones">
+                            <div class="phone-item">
+                                <span>福岡事務所</span>
+                                <a href="tel:092-731-0480" class="phone-link">092-731-0480</a>
+                            </div>
+                            <div class="phone-item">
+                                <span>長崎事務所</span>
+                                <a href="tel:095-801-5271" class="phone-link">095-801-5271</a>
+                            </div>
                         </div>
+                        <p class="contact-time">受付時間：平日 9:00-17:00</p>
                     </div>
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div class="info-details">
-                            <h4>営業時間</h4>
-                            <p>平日 9:00〜18:00<br>（土日祝日は事前予約制）</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon">
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
-                        <div class="info-details">
-                            <h4>メール</h4>
-                            <p>info@example.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-map">
-                    <div class="map-placeholder">
-                        <i class="fas fa-map-marked-alt"></i>
-                        <p>福岡</p>
+                        <h3>メールでのお問い合わせ</h3>
+                        <p>24時間受付中。お問い合わせフォームからお気軽にご連絡ください。</p>
+                        <a href="mailto:info@souken-tax.com" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i>
+                            メールで相談
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- お問い合わせCTA -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="contact-box">
-                <h2 class="contact-title">無料相談を承っております</h2>
-                <p class="contact-description">
-                    税務・会計に関するお悩みは、まずはお気軽にご相談ください。<br>
-                    初回相談は無料です。お電話またはメールにてお問い合わせください。
-                </p>
-                <div class="contact-actions">
-                    <a href="tel:092-731-0480（福岡事務所）、095-801-5271（長崎事務所）" class="btn btn-primary btn-large">
-                        <i class="fas fa-phone"></i>
-                        電話で相談する
-                        <span class="contact-phone-number">092-731-0480（福岡事務所）、095-801-5271（長崎事務所）</span>
-                    </a>
-                    <a href="mailto:info@example.com" class="btn btn-secondary btn-large">
-                        <i class="fas fa-envelope"></i>
-                        メールで相談する
-                    </a>
-                </div>
-                <div class="contact-hours">
-                    <i class="fas fa-clock"></i>
-                    受付時間: 平日 9:00〜18:00（土日祝日は事前予約制）
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- フッター -->
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <i class="fas fa-calculator"></i>
-                    <span>税理士法人 創研</span>
+                <div class="footer-section">
+                    <h3>税理士法人 創研</h3>
+                    <p>福岡・長崎で働き方改革を実践する税理士法人として、お客様に寄り添ったサービスを提供しています。</p>
                 </div>
-                <nav class="footer-nav">
-                    <a href="#hero">ホーム</a>
-                    <a href="#services">サービス</a>
-                    <a href="#strengths">選ばれる理由</a>
-                    <a href="#pricing">料金</a>
-                    <a href="#about">事務所概要</a>
-                    <a href="#contact">お問い合わせ</a>
-                </nav>
-                <div class="footer-contact">
-                    <p><i class="fas fa-map-marker-alt"></i> 〒810-0003福岡県福岡市中央区春吉3丁目25番13号（福岡事務所）、〒850-0874長崎県長崎市魚の町2番6号 新栄商会ビル4階（長崎事務所）</p>
-                    <p><i class="fas fa-phone"></i> <a href="tel:092-731-0480（福岡事務所）、095-801-5271（長崎事務所）">092-731-0480（福岡事務所）、095-801-5271（長崎事務所）</a></p>
-                    <p><i class="fas fa-envelope"></i> info@example.com</p>
+                
+                <div class="footer-section">
+                    <h4>サービス</h4>
+                    <ul>
+                        <li><a href="#services">法人税務顧問</a></li>
+                        <li><a href="#services">個人税務相談</a></li>
+                        <li><a href="#services">デジタル化支援</a></li>
+                        <li><a href="#services">経営革新支援</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>事務所情報</h4>
+                    <div class="footer-office">
+                        <p><strong>福岡事務所</strong></p>
+                        <p>〒810-0003<br>福岡県福岡市中央区春吉3丁目25番13号</p>
+                        <p><a href="tel:092-731-0480">092-731-0480</a></p>
+                    </div>
+                    <div class="footer-office">
+                        <p><strong>長崎事務所</strong></p>
+                        <p>〒850-0874<br>長崎県長崎市魚の町2番6号 新栄商会ビル4階</p>
+                        <p><a href="tel:095-801-5271">095-801-5271</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>お問い合わせ</h4>
+                    <p>営業時間：平日 9:00-18:00</p>
+                    <p>電話受付：9:00-17:00</p>
+                    <p>対応地域：福岡県・長崎県とその周辺地域</p>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2026 税理士法人 創研. All rights reserved.</p>
+                <p>&copy; 2025 税理士法人 創研. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
     <script>
-        // スムーズスクロール
+        // Mobile menu toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    const headerOffset = 80;
-                    const elementPosition = target.getBoundingClientRect().top;
-                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-                    window.scrollTo({
-                        top: offsetPosition,
-                        behavior: 'smooth'
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
                     });
-
-                    // モバイルメニューを閉じる
-                    if (window.innerWidth <= 768) {
-                        nav.classList.remove('active');
-                        mobileMenuToggle.classList.remove('active');
-                    }
                 }
             });
         });
 
-        // ヘッダー固定効果
-        const header = document.getElementById('header');
-        let lastScroll = 0;
-
+        // Header scroll effect
         window.addEventListener('scroll', () => {
-            const currentScroll = window.pageYOffset;
-
-            if (currentScroll > 100) {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
                 header.classList.add('scrolled');
             } else {
                 header.classList.remove('scrolled');
             }
-
-            lastScroll = currentScroll;
-        });
-
-        // モバイルメニュートグル
-        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
-        const nav = document.getElementById('nav');
-
-        mobileMenuToggle.addEventListener('click', () => {
-            nav.classList.toggle('active');
-            mobileMenuToggle.classList.toggle('active');
-        });
-
-        // スクロールアニメーション
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fade-in');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.service-card, .strength-card').forEach(el => {
-            observer.observe(el);
         });
     </script>
 </body>
